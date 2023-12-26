@@ -1,11 +1,12 @@
-@use 'colors';
+@use '../../scss/colors';
 
 :host(.color--01) {
   .was-validated {
     background-color: green;
+    color: colors.$g-root__color--primary--01a;
   }
 
   .is-invalid {
-    background-color: purple;
+    background-color: pink;
   }
 }
