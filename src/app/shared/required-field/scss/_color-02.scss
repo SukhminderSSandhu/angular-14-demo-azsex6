@@ -1,0 +1,9 @@
+:host(.color--02) {
+  .was-validated {
+    background-color: blue;
+  }
+
+  .is-invalid {
+    background-color: orangered;
+  }
+}

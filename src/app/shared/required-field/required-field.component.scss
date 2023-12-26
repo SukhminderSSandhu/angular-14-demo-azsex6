@@ -1,0 +1,29 @@
+@use 'scss/global';
+
+// Colors
+@use 'scss/color-01';
+@use 'scss/color-02';
+
+// Layout
+
+@use 'scss/desktop';
+@use 'scss/mobile';
+
+
+// .was-validated {
+//   color: green
+// }
+
+// .is-invalid {
+//   background-color: red;
+// }
+
+// .mb-3 {
+//   .was-validated {
+//     color: brown;
+//   }
+
+//   .is-invalid {
+//     background-color: aqua;
+//   }
+// }

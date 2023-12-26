@@ -1,0 +1,7 @@
+@use 'colors';
+
+:host {
+  background: colors.$g-root__color--primary--01a;
+  font-size: 1rem;
+  margin-left: 100px;
+}
