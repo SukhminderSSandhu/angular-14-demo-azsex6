@@ -1,5 +1,8 @@
+@use '../../scss/layout/desktop-mixin';
+
 :host(.desktop) {
   .mb-3 {
+    @include desktop-mixin.desktop-layout__container;
     display: flex;
     flex-direction: row;
   }

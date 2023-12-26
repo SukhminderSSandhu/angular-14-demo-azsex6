@@ -1,6 +1,11 @@
+@use '../../scss/layout/mobile-mixin';
+
 :host(.mobile) {
   .mb-3 {
+    @include mobile-mixin.mobile-layout__container;
     display: flex;
     flex-direction: column;
   }
 }
+
+

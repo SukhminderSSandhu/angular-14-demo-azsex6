@@ -9,21 +9,6 @@
 @use 'scss/desktop';
 @use 'scss/mobile';
 
-
-// .was-validated {
-//   color: green
-// }
-
-// .is-invalid {
-//   background-color: red;
-// }
-
-// .mb-3 {
-//   .was-validated {
-//     color: brown;
-//   }
-
-//   .is-invalid {
-//     background-color: aqua;
-//   }
-// }
+:host .mb-3 {
+    margin-top: 10px;
+}

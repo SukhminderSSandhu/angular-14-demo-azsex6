@@ -1,0 +1,6 @@
+@use 'mixin';
+
+@mixin desktop-layout__container {
+    @include mixin.g-layout__container;
+    margin-left: 100px;
+}

@@ -1,0 +1,6 @@
+@use 'mixin';
+
+@mixin mobile-layout__container {
+    @include mixin.g-layout__container;
+    margin-left: 5px;
+}
