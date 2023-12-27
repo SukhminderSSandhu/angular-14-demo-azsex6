@@ -2,5 +2,5 @@
 
 @mixin mobile-layout__container {
     @include mixin.g-layout__container;
-    margin-left: 5px;
+    margin-left: 0.31em;  //5px
 }

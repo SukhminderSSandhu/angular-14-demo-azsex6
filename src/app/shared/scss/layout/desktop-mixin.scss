@@ -2,5 +2,5 @@
 
 @mixin desktop-layout__container {
     @include mixin.g-layout__container;
-    margin-left: 100px;
+    margin-left: 6.25em // 100px
 }

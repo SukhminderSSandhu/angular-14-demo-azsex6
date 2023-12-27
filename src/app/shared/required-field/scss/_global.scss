@@ -1,6 +1,6 @@
 :host {
   display: block;
   background-color: beige;
-  font-size: 1rem;
-  margin-left: 200px;
+  font-size: 100%; // means 1rem or 16px
+  margin-left: 12.5em; // 200px
 }
